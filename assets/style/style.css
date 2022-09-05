@@ -1,0 +1,29 @@
+.main__container {
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+
+    background-color: #FDE291;
+}
+
+.main__form {
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+
+    background-color: #FDFFBF;
+}
+
+.comment {
+    padding: 5px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.button {
+    font-size: 1.2em;
+    font-weight: 600;
+    color:white;
+}
