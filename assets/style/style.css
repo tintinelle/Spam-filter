@@ -17,8 +17,10 @@
 }
 
 .comment {
-    padding: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
     border-radius: 20px;
+    border: 1px solid sandybrown;
     background-color: white;
 }
 

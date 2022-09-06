@@ -18,7 +18,7 @@ const addComment = () => {
 const generateComments = () => {
     let optionsComment = "";
     for (let comment of comments) {
-        optionsComment += `<div>${comment}</div>`;
+        optionsComment += `<div class="comment">${comment}</div>`;
     }
 
     document.getElementById('allComments').innerHTML = optionsComment;
