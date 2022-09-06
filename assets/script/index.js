@@ -3,17 +3,13 @@
 const sendBtn = document.getElementById('btnSend');
 let comments = ["Hello!", "Where are you from?"];
 
-const styleComment = (sender) => {
-    sender.classList.add("comment");
-}
-
 const addComment = () => {
     const newComment = document.getElementById('comment').value;
     const filteredComment = newComment.replace(/viagra|xxx/gi, "***");
     comments.push(filteredComment);
     generateComments();
     console.log(comments);
-}
+};
 
 const generateComments = () => {
     let optionsComment = "";
@@ -22,7 +18,7 @@ const generateComments = () => {
     }
 
     document.getElementById('allComments').innerHTML = optionsComment;
-}
+};
 
 document.addEventListener("DOMContentLoaded", generateComments);
 
