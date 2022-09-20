@@ -16,9 +16,18 @@
     <main class="main">
         <div class="main__container">
             <form class="row g-3 main__form">
-                <div class="col-12" id="allComments"></div>
+                <div class="col-12 main__comments" id="allComments"></div>
+
                 <div class="col-12">
-                    <textarea class="form-control" id="comment" rows="3" placeholder="Add comment"
+                    <input required type="text" class="form-control" id="username" placeholder="Enter your name*">
+                </div>
+
+                <div class="col-12">
+                    <input type="text" class="form-control" id="avatar" placeholder="Add your avatar link">
+                </div>
+
+                <div class="col-12">
+                    <textarea class="form-control" id="comment" rows="3" placeholder="Your comment"
                         aria-describedby="btnSend"></textarea>
                     <button class="btn btn-info col-12 button" type="button" id="btnSend">Send comment</button>
                 </div>

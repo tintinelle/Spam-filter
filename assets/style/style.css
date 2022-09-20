@@ -1,3 +1,7 @@
+/* * {
+    border: 1px slateblue solid;
+} */
+
 .main__container {
     width: 90%;
     margin: auto;
@@ -16,13 +20,39 @@
     background-color: #FDFFBF;
 }
 
+.main__comments {
+    padding: 20px;
+}
+
+.comment-wrap {
+    margin-bottom: 10px;
+}
+
+.avatar,
+.author,
 .comment {
-    padding: 10px;
-    margin-bottom: 5px;
-    border-radius: 20px;
     border: 1px solid sandybrown;
+    border-radius: 20px;
+
     background-color: white;
 }
+
+.avatar {
+    width: 54px;
+    padding: 2px;
+}
+
+.author {
+    padding: 4px;
+
+    color: brown;
+    font-weight: bolder;
+}
+
+.comment {
+    padding: 4px;
+}
+
 
 .button {
     font-size: 1.2em;
