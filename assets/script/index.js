@@ -10,6 +10,7 @@ let author = document.getElementById('username').value;
 let avatar = document.getElementById('avatar').value;
 let comment = document.getElementById('comment').value;
 
+// проверяем, сохранены ли ава и имя и отправляем генерировать прошлые комментарии
 document.addEventListener("DOMContentLoaded", function (event) {
 
     let name = localStorage.getItem('name');
@@ -51,8 +52,6 @@ const checkMessage = (author, comment) => {
     // делаем из массива строку и добавляем в локальное хранилище:
     localStorage.setItem("comments", JSON.stringify(comments));
     console.log(` строка ${comments}`);
-    // comments = JSON.parse(localStorage.getItem('comments'));
-    // console.log(comments);
 
     // отправляем в функцию, которая отвечает за отображение комментариев:
     generateComments();
